@@ -1,5 +1,6 @@
+import 'package:employees_salary_tracker/utils/colors.dart';
 import 'package:flutter/material.dart';
-import 'package:employees_salary_tracker/constants.dart';
+import 'package:employees_salary_tracker/utils/constants.dart';
 import 'package:employees_salary_tracker/widgets/snackbar_widget.dart';
 import 'package:employees_salary_tracker/widgets/worker_form_widget.dart';
 import 'package:employees_salary_tracker/api/sheet/worker_sheet_api.dart';
@@ -46,7 +47,7 @@ class _CardWidgetState extends State<CardWidget> {
               },
             ),
           ),
-          color: Colors.white60,
+          color: colorBlue,
         ),
       ),
     );

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:employees_salary_tracker/constants.dart';
+import 'package:employees_salary_tracker/utils/constants.dart';
 import 'package:employees_salary_tracker/model/worker.dart';
 
 class FilterListWidget extends StatelessWidget {

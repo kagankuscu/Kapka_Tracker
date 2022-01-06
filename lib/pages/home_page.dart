@@ -1,4 +1,5 @@
-import 'package:employees_salary_tracker/constants.dart';
+import 'package:employees_salary_tracker/utils/colors.dart';
+import 'package:employees_salary_tracker/utils/constants.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
@@ -41,15 +42,15 @@ class _MyHomePageState extends State<MyHomePage>
         children: _kTabPages,
       ),
       bottomNavigationBar: Material(
-        color: Colors.grey[400],
+        color: colorBlue,
         child: TabBar(
-          indicatorColor: Colors.black,
+          indicatorColor: colorDarkBlue,
           overlayColor: MaterialStateColor.resolveWith(
             (Set<MaterialState> states) {
               if (states.contains(MaterialState.pressed)) {
-                return Colors.grey[600]!;
+                return colorDarkBlue;
               } else if (states.contains(MaterialState.hovered)) {
-                return Colors.grey[300]!;
+                return color[300]!;
               }
 
               return Colors.transparent;

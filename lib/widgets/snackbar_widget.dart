@@ -1,3 +1,4 @@
+import 'package:employees_salary_tracker/utils/colors.dart';
 import 'package:flutter/material.dart';
 
 class SnackBarWidget extends StatelessWidget {
@@ -15,11 +16,11 @@ class SnackBarWidget extends StatelessWidget {
       content: ListTile(
         title: Text(this.text),
         leading: Icon(Icons.check),
-        textColor: Colors.white70,
-        iconColor: Colors.white70,
+        textColor: colorWhite,
+        iconColor: colorWhite,
       ),
       backgroundColor:
-          this.isDelete != true ? Colors.green[400] : Colors.red[400],
+          this.isDelete != true ? colorGreen : colorRed,
     );
   }
 }

@@ -1,4 +1,5 @@
-import 'package:employees_salary_tracker/constants.dart';
+import 'package:employees_salary_tracker/utils/colors.dart';
+import 'package:employees_salary_tracker/utils/constants.dart';
 import 'package:employees_salary_tracker/l10n/L10n.dart';
 import 'package:flutter/material.dart';
 import 'package:employees_salary_tracker/api/sheet/worker_sheet_api.dart';
@@ -26,7 +27,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: appName,
       theme: ThemeData(
-        primarySwatch: Colors.grey,
+        primarySwatch: materialColor,
       ),
       home: const MyHomePage(),
     );

@@ -1,5 +1,6 @@
+import 'package:employees_salary_tracker/utils/colors.dart';
 import 'package:flutter/material.dart';
-import 'package:employees_salary_tracker/constants.dart';
+import 'package:employees_salary_tracker/utils/constants.dart';
 import 'package:employees_salary_tracker/model/worker.dart';
 import 'package:employees_salary_tracker/utils/utils.dart';
 import 'package:employees_salary_tracker/widgets/button_widget.dart';
@@ -59,8 +60,9 @@ class _WorkerFormWidgetState extends State<WorkerFormWidget> {
           labelText: AppLocalizations.of(context).name,
           border: OutlineInputBorder(),
         ),
-        validator: (value) =>
-            value != null && value.isEmpty ? AppLocalizations.of(context).enterName : null,
+        validator: (value) => value != null && value.isEmpty
+            ? AppLocalizations.of(context).enterName
+            : null,
       );
 
   Widget buildPrice() => TextFormField(
@@ -70,11 +72,13 @@ class _WorkerFormWidgetState extends State<WorkerFormWidget> {
           border: OutlineInputBorder(),
         ),
         keyboardType: TextInputType.number,
-        validator: (value) =>
-            value != null && value.isEmpty ? AppLocalizations.of(context).enterDailySalary : null,
+        validator: (value) => value != null && value.isEmpty
+            ? AppLocalizations.of(context).enterDailySalary
+            : null,
       );
 
   Widget buildDate() => TextFormField(
+        cursorColor: colorBlack,
         onTap: () => {
           showDatePicker(
             context: this.context,

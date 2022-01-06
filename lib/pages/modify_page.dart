@@ -1,7 +1,8 @@
+import 'package:employees_salary_tracker/utils/colors.dart';
 import 'package:employees_salary_tracker/widgets/isEmpty_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:employees_salary_tracker/api/sheet/worker_sheet_api.dart';
-import 'package:employees_salary_tracker/constants.dart';
+import 'package:employees_salary_tracker/utils/constants.dart';
 import 'package:employees_salary_tracker/model/worker.dart';
 import 'package:employees_salary_tracker/widgets/button_widget.dart';
 import 'package:employees_salary_tracker/widgets/navigate_widget.dart';
@@ -57,7 +58,7 @@ class _ModifyPageState extends State<ModifyPage> {
       );
 
   Widget buildCardWidget() => Card(
-        color: Colors.white60,
+        color: colorBlue,
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.all(
             Radius.circular(20),

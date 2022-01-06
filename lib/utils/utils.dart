@@ -1,5 +1,5 @@
 import 'package:intl/intl.dart';
-import 'package:employees_salary_tracker/constants.dart';
+import 'package:employees_salary_tracker/utils/constants.dart';
 import 'package:employees_salary_tracker/model/worker.dart';
 
 String capitializedFirstLetterList(List<Worker> workers, int index) {
