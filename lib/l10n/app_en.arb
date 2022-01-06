@@ -1,0 +1,74 @@
+{
+    "createPage": "Create",
+    "@createPage": {
+        "description": "Create Page"
+    },
+    "saved": "Saved",
+    "@saved": {
+        "description": "Saved"
+    },
+    "save": "Save",
+    "@save": {
+        "description": "Save"
+    },
+    "name": "Name",
+    "@name": {
+        "description": "Name"
+    },
+    "dailySalary": "Daily Salary",
+    "@dailySalary": {
+        "description": "Daily Salary"
+    },
+    "date": "Date",
+    "@date": {
+        "description": "Date"
+    },
+    "dateIsOptional": "Date is optional",
+    "@dateIsOptional": {
+        "description": "Date is optional"
+    },
+    "enterName": "Enter Name",
+    "@enterName": {
+        "description": "Enter Name"
+    },
+    "enterDailySalary": "Enter Daily Salary",
+    "@enterDailySalary": {
+        "description": "Enter Daily Salary"
+    },
+    "updated": "Updated",
+    "@updated": {
+        "description": "Updated"
+    },
+    "workers": "Workers",
+    "@workers": {
+        "description": "Workers"
+    },
+    "delete": "Delete",
+    "@delete": {
+        "description": "Delete"
+    },
+    "deleted": "Deleted",
+    "@deleted": {
+        "description": "Deleted"
+    },
+    "searchName": "Search Name",
+    "@searchName": {
+        "description": "Search Name"
+    },
+    "modifyPage": "Modify",
+    "@modifyPage": {
+        "description": "Modify"
+    },
+    "filterPage": "Filter",
+    "@filterPage": {
+        "description": "Filter"
+    },
+    "salary": "Salary",
+    "@salary": {
+        "description": "Salary"
+    },
+    "infoText": "There is not any value",
+    "@infoText": {
+        "description": "There is not any value"
+    }
+}
