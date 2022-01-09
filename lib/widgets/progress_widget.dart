@@ -6,9 +6,7 @@ class ProgressWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Center(
-      child: CircularProgressIndicator(
-        strokeWidth: 2.0,
-      ),
+      child: Image.asset("assets/kapka_1.gif"),
     );
   }
 }
