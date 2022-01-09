@@ -1,4 +1,6 @@
+import 'package:employees_salary_tracker/utils/colors.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_spinkit/flutter_spinkit.dart';
 
 class ProgressWidget extends StatelessWidget {
   const ProgressWidget({Key? key}) : super(key: key);
@@ -6,7 +8,9 @@ class ProgressWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Center(
-      child: Image.asset("assets/kapka_1.gif"),
+      child: SpinKitWave(
+        color: colorBlue,
+      ),
     );
   }
 }
